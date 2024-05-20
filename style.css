@@ -1,0 +1,314 @@
+h1 {
+  text-align: center;
+}
+
+#header0 {
+  position: sticky;
+}
+
+#header1 {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+
+  position: sticky;
+}
+
+#header1 img {
+  margin-top: 10px;
+
+  margin-right: 150px;
+  margin-left: 150px;
+
+  width: 280px;
+  height: 37px;
+}
+
+#header2 img {
+  width: 100%;
+  height: 300px;
+}
+
+#header2 h1 {
+  font-size: xx-large;
+  text-align: center;
+}
+
+#product1 {
+  text-align: center;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+#product1 .pro-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+#product1 .pro {
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 10px solid rgb(239, 235, 156);
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px 0;
+  transition: 0.2s ease;
+}
+
+#product1 .pro:hover {
+  box-shadow: 20px 20px 30px rgb(239, 199, 163);
+}
+
+#product1 .pro img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+#product1 .pro .des {
+  text-align: start;
+  padding: 10px 0;
+}
+
+#product1 .pro .des span {
+  color: #606063;
+  font-size: 12px;
+}
+
+#product1 .pro .des h5 {
+  padding-top: 7px;
+  color: #111312;
+  font-size: 14px;
+}
+
+#product1 .pro .des i {
+  padding-top: 3px;
+  font-size: 12px;
+  color: #eec306;
+}
+
+#product1 .pro .des h4 {
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #088178;
+}
+
+#product1 .pro .glow-on-hover {
+  width: 120px;
+  height: 35px;
+  border: none;
+  outline: none;
+  color: #eef1ee;
+  background: #ec1414;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: medium;
+  font-weight: bolder;
+}
+
+#product1 .pro .glow-on-hover:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+#product1 .pro .glow-on-hover:active {
+  color: #090e00;
+}
+
+#product1 .pro .glow-on-hover:active:after {
+  background: transparent;
+}
+
+#product1 .pro .glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+#product1 .pro .glow-on-hover:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #5aeb07;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+#product1 .pro .glow-on-hover1 {
+  width: 120px;
+  height: 35px;
+  border: none;
+  outline: none;
+  color: #eef1ee;
+  background: #ec1414;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: medium;
+  font-weight: bolder;
+}
+
+#product1 .pro .glow-on-hover1:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+#product1 .pro .glow-on-hover1:active {
+  color: #090e00;
+}
+
+#product1 .pro .glow-on-hover1:active:after {
+  background: transparent;
+}
+
+#product1 .pro .glow-on-hover1:hover:before {
+  opacity: 1;
+}
+
+#product1 .pro .glow-on-hover1:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ea2517;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+#feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#feature .fe-box {
+  width: 120px;
+  
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+
+
+
+#feature .fe-box:hover {
+  box-shadow: 50px 10px 54px rgba(70, 62, 221, 0.01);
+}
+
+#feature .fe-box img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#feat1 {
+  background-color: #ffffff;
+
+  height: 300px;
+}
+
+#feature .fe-box h4 {
+  display: inline-block;
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #000000;
+  background-color: #fddde4;
+}
+
+#feature .fe-box:nth-child(2) h4 {
+  background-color: #cdebbc;
+}
+
+#feature .fe-box:nth-child(3) h4 {
+  background-color: #aed0f5;
+}
+
+#feature .fe-box:nth-child(4) h4 {
+  background-color: #dcdf13;
+}
+
+#feature .fe-box:nth-child(5) h4 {
+  background-color: #bce9ee;
+}
+
+#feature .fe-box:nth-child(6) h4 {
+  background-color: #7ef4ad;
+}
